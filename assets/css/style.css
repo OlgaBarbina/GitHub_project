@@ -24,22 +24,21 @@ body {
 }
 
 .cont {
-    display: flex;
+    
     justify-content: space-between;
     color: white;
     clear: both;
-    margin-left: 60px;
-    margin-right: 60px;
+    
     font-size: 30pt;
+    
 }
-
 .table {
     display: flex;
     justify-content: space-between;
     border-spacing: 30 px;
     text-align: left;
     margin-right: 20px;
-    margin-left: 20px;
+    
 }
 
 .content {
@@ -47,7 +46,7 @@ body {
     width: 932px;
     height: 108px;
     font-size: 20pt;
-    margin-left: 41;
+    
 }
 
 .content_h {
@@ -69,6 +68,7 @@ body {
 
 .button_state {
     display: table-cell;
+    
 }
 
 .button_old {
@@ -76,7 +76,7 @@ body {
     background-color: white;
     font-size: 29px;
     width: 80px;
-    text-align: center;
+    
 }
 
 .new_task {
@@ -91,7 +91,7 @@ body {
 
 .input_text {
     filter: opacity(100%);
-    width: 720px;
+    width: 520px;
     height: 36px;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -108,7 +108,3 @@ body {
 }
 
 
-/* .rr{
-background-color: rgba(138, 255, 83, 0.5);
-
-} */
